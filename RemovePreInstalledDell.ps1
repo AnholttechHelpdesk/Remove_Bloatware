@@ -212,7 +212,7 @@ if ($manufacturer -like "*Dell*")
     {
         If ($sa.UninstallString) 
         {
-            cmd.exe /c $sa.UninstallString /quiet /norestart
+            cmd.exe /c $sa.UninstallString /SILENT /norestart
         }
     }
 
